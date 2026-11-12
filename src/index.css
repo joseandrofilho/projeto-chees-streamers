@@ -1,0 +1,36 @@
+:root {
+  --paper: #2b173e;
+  --ink: #fbf7ff;
+  --muted: #d3c3e2;
+  --line: #624b76;
+  --surface: #3b2552;
+  --purple: #d7b5ff;
+  --online: #68d391;
+  --offline: #ff9b9b;
+  --display: Georgia, "Times New Roman", serif;
+  --body: "Segoe UI", sans-serif;
+
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100svh;
+  overflow: hidden;
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(rgba(215, 181, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(215, 181, 255, 0.035) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100svh;
+  margin: 0;
+}
